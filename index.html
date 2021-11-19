@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Astra</title>
+</head>
+<body>
+    <header>
+        <img src="./assets/logo.png" alt="" srcset="">
+    </header>
+    <section class="contato">
+        <div class="contato-canais card">
+            <div class="canal">
+                <h2>ATENDIMENTO AO CONSUMIDOR
+                    (SAC)</h2>
+                <span>
+                    0800 160 5051
+                </span>
+            </div>
+            <div class="canal">
+                <h2>LOGÍSTICA</h2>
+                <span>
+                    0800 160 5051
+                </span>
+            </div>
+            <div class="canal">
+                <h2>LOJISTA, ENCONTRE UM REPRESENTANTE</h2>
+                <span>
+                    0800 140 6977
+                </span>
+            </div>
+        </div>
+        <div class="contato-form card">
+           <!--  ----------------------------------------------------------------------  -->
+            <!--  NOTA: Adicione o seguinte elemento <META> à sua página <HEAD>.  Se      -->
+            <!--  necessário, modifique o parâmetro charset para especificar o conjunto   -->
+            <!--  de caracteres de sua página HTML.                                       -->
+            <!--  ----------------------------------------------------------------------  -->
+
+            <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+
+                <!--  ----------------------------------------------------------------------  -->
+                <!--  NOTA: Adicione o elemento <FORM> a seguir à sua página.                 -->
+                <!--  ----------------------------------------------------------------------  -->
+                
+                <form action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
+                
+                <input type=hidden name="orgid" value="00D5f000005XY1k">
+                <input type=hidden name="retURL" value="http://www.google.com">
+                
+                <!--  ----------------------------------------------------------------------  -->
+                <!--  NOTA: Estes campos são elementos de depuração opcionais. Remova o       -->
+                <!--  comentário dessas linhas se quiser testar no modo de depuração.         -->
+                <!--  <input type="hidden" name="debug" value=1>                              -->
+                <!--  <input type="hidden" name="debugEmail"                                  -->
+                <!--  value="jferraz@salesforce.com">                                         -->
+                <!--  ----------------------------------------------------------------------  -->
+                <div class="input-wrapper">
+                    <label for="name">Nome do contato</label>
+                    <input  id="name" maxlength="80" name="name" size="20" type="text" /><br>
+                </div>
+                <div class="input-wrapper">
+                    <label for="email">Email</label>
+                    <input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+
+                </div>
+                <div class="input-wrapper">
+                    <label for="phone">Telefone</label>
+                    <input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
+
+                </div>
+                <div class="input-wrapper">
+                    <label for="subject">Assunto</label>
+                    <input  id="subject" maxlength="80" name="subject" size="20" type="text" /><br>
+
+                </div>
+                <div class="input-wrapper">
+                    Família do Produto:
+                    <select  id="00N5f00000IsY9E" name="00N5f00000IsY9E" title="Família do Produto">
+                    <option value="">-- Nenhum --</option>
+                    <option value="materiais_eletricos">Materiais Elétricos</option>
+                    <option value="Banheiro">Banheiro</option>
+                    <option value="Pet">Pet</option>
+                    <option value="Portas e Janelas">Portas e Janelas</option>
+                    <option value="Revestimentos">Revestimentos</option>
+                    </select><br>
+                </div>
+                <div class="input-wrapper">
+                    <label for="description">Descrição</label>
+                    <textarea name="description"></textarea><br>
+
+                </div>
+
+                
+                
+                
+                
+                
+                <input type="hidden"  id="external" name="external" value="1" /><br>
+                
+                <input type="submit" name="submit" value="Enviar">
+                
+                </form>
+    
+                
+
+
+        </div>
+    </section>
+</body>
+</html>
